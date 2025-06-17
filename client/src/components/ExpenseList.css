@@ -1,0 +1,28 @@
+/* client/src/components/ExpenseList.css */
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.expense-list-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+.expense-items {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  padding: 10px;
+  background-color: #f9fafb;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}

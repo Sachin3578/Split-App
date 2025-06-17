@@ -1,0 +1,73 @@
+/* client/src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+  color: #1e293b;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Flex container inside navbar */
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Branding */
+.navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* Link List */
+.navbar-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual Link Styling */
+.navbar-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover & Active */
+.navbar-links li a:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #f0f9ff;
+}
+
+.navbar-links li a.active {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #f0f9ff;
+}
+
+/* Main Page Content */
+.main-content {
+  padding: 32px;
+  max-width: 1200px;
+  margin: auto;
+}

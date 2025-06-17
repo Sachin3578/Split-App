@@ -1,0 +1,35 @@
+/* client/src/pages/Dashboard.css */
+
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0e7ff, #ffffff, #dbeafe);
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4f46e5;
+  margin-bottom: 24px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
+@media (min-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.dashboard-card {
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+}

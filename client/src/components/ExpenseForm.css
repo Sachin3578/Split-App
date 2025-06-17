@@ -1,0 +1,49 @@
+/* client/src/components/ExpenseForm.css */
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.expense-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #1e40af;
+  font-weight: bold;
+}
+
+.expense-form input,
+.expense-form select {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.expense-form input:focus,
+.expense-form select:focus {
+  border-color: #2563eb;
+}
+
+.expense-form button {
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.expense-form button:hover {
+  background-color: #1e3a8a;
+}
+
+.expense-form button:disabled {
+  background-color: #a5b4fc;
+  cursor: not-allowed;
+}
