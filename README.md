@@ -6,8 +6,8 @@ A full-stack MERN application to split expenses among participants, track who ow
 
 ## 🌐 Live Demo
 
-- 🖥️ **Frontend:** [Split Expense App (Vercel)](https://your-vercel-url.vercel.app)
-- ⚙️ **Backend API:** [Render API Endpoint](https://your-render-url.onrender.com/expenses)
+- 🖥️ **Frontend:** [Split Expense App (Vercel)](https://split-app-ruddy.vercel.app/ )
+- ⚙️ **Backend API:** [Render API Endpoint](https://split-expense-backend.onrender.com) 
 
 ---
 
@@ -19,7 +19,7 @@ A full-stack MERN application to split expenses among participants, track who ow
 
 ## 🧪 Postman Collection
 
-- [Postman Gist (v2.1 Collection)](https://gist.github.com/your-postman-export-link)
+- [Postman Gist (v2.1 Collection)](https://sachingornar.postman.co/workspace/fdc943ea-4145-41be8ade-64c0c52b62df/collection/45948353-ad813fdb-88dd-4c18-a5474389b2e96d6a?action=share&source=collection_link&creator=45948353)
 
 ---
 
